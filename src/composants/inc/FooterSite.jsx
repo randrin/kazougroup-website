@@ -204,7 +204,7 @@ const FooterSite = () => {
                   currentDate
                 )}{" "}
                 - Realized by
-                <Link href="/" className="kazougroup-footer-title underline">
+                <Link to="/" className="kazougroup-footer-title underline">
                   KazouGroup Srl
                 </Link>
                 <span className="ml-2"><span className="kazougroup-bullet"></span>All right reserved.</span>

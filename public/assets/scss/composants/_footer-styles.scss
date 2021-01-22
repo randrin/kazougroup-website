@@ -105,4 +105,14 @@
             color: var(--instagram-color);
         }
     }
+
+    .bottombar {
+        @include small() {
+            text-align: center;
+        }
+    }
+
+    .copyright {
+        margin: 5px 0;
+    }
 }

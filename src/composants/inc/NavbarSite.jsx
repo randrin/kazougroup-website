@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MultiLanguagesSite from "./MultiLanguagesSite";
 import ProfileUserSite from "./ProfileUserSite";
 
 const NavbarSite = () => {
@@ -445,27 +446,7 @@ const NavbarSite = () => {
               </a>
             </li>
           </ul>
-          <ul className="setting-area">
-            <li>
-              <a href="#" title="Languages" data-ripple="">
-                <i className="fa fa-globe"></i>
-              </a>
-              <div className="dropdowns languages">
-                <a href="#" title="">
-                  <i className="ti-check"></i>English
-                </a>
-                <a href="#" title="">
-                  Arabic
-                </a>
-                <a href="#" title="">
-                  Dutch
-                </a>
-                <a href="#" title="">
-                  French
-                </a>
-              </div>
-            </li>
-          </ul>
+          <MultiLanguagesSite />
           {user ? (
             <ProfileUserSite />
           ) : (
