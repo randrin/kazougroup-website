@@ -1,0 +1,14 @@
+// COMMON
+@import 'common/variables';
+
+// MEDIA-QUERIES
+@import 'responsive/media-queries';
+
+// OVERRIDE
+@import 'override/override-template-styles';
+
+// COMPOSANTS
+@import 'composants/auth-styles';
+@import 'composants/footer-styles';
+@import 'composants/navbar-styles';
+@import 'composants/others-styles';

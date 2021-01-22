@@ -1,0 +1,25 @@
+.kazougroup-login-wrapper {
+    .kazougroup-btn-login {
+      border: 1px solid var(--blue-pacific);
+      color: var(--white) !important;
+      border-radius: 5px;
+      padding: 10px 20px;
+      background: var(--blue-pacific);
+      font-weight: 600;
+  
+      &:hover {
+        background: transparent;
+        color: var(--blue-pacific) !important;
+        .kazougroup-login-left-icon {
+          display: none;
+        }
+        .kazougroup-login-right-icon {
+          display: inline-block;
+        }
+      }
+    }
+  
+    .kazougroup-login-right-icon {
+      display: none;
+    }
+  }

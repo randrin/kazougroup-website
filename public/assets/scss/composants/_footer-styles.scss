@@ -1,0 +1,108 @@
+.kazougroup-footer-wrapper {
+    .kazougroup-footer-title {
+        left: 5px;
+        color: var(--blue-pacific);
+    }
+
+    .kazougroup-main-menu::after {
+        content: '' !important;
+    }
+
+    .kazougroup-bullet {
+        display: inline;
+        margin: 0 4px;
+        color: var(--blue-pacific);
+
+        &::after {
+            content: "\2022";
+        }
+    }
+
+    .kazougroup-footer-link {
+        font-size: 14px;
+    }
+
+    .kazougroup-footer-icon {
+        color: var(--blue-pacific) !important;
+        font-weight: 600;
+        margin-right: 10px;
+    }
+
+    .kazougroup-footer-social-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        color: var(--surva-grey);
+        margin: 0;
+        background-color: transparent;
+        border: .1rem solid var(--silver);
+        border-radius: 50%;
+        text-decoration: none;
+        opacity: 1;
+        transition: all .35s ease;
+
+        i {
+            font-size: 20px;
+        }
+    }
+
+    .kazougroup-footer-list-social {
+        left: -40px;
+        position: relative;
+        list-style: none;
+        display: flex;
+
+        li {
+            margin-right: 15px;
+            font-size: 25px;
+        }
+    }
+
+    .kazougroup-btn-facebook {
+        &:hover {
+            border-color: var(--facebook-color) !important;
+            background: var(--facebook-color) !important;
+
+            .fa-facebook {
+                color: var(--white);
+            }
+        }
+
+        .fa-facebook {
+            color: var(--facebook-color);
+        }
+    }
+
+    .kazougroup-btn-twitter {
+        &:hover {
+            border-color: var(--twitter-color) !important;
+            background: var(--twitter-color) !important;
+
+            .fa-twitter {
+                color: var(--white);
+            }
+        }
+
+        .fa-twitter {
+            color: var(--twitter-color);
+        }
+    }
+
+    .kazougroup-btn-instagram {
+        &:hover {
+            border-color: var(--instagram-color) !important;
+            background: linear-gradient(to right, #F7D440 0%, #F50000 100%) !important;
+
+            .fa-instagram {
+                color: var(--white);
+            }
+        }
+
+        .fa-instagram {
+            color: var(--instagram-color);
+        }
+    }
+}

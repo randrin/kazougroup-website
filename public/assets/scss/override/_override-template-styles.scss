@@ -1,0 +1,59 @@
+.user-setting {
+    left: -35px !important;
+  }
+  
+  .top-area > ul.main-menu {
+    float: revert;
+  }
+  
+  .bottombar i {
+    @include small() {
+      float: left;
+    }
+  }
+  
+  .copyright {
+    font-size: 14px !important;
+  }
+  
+  .topbar {
+    height: 80px;
+  }
+  
+  .top-area {
+    top: 10px;
+    position: relative;
+  }
+  
+  .g-map::before {
+    background: transparent none repeat scroll 0 0;
+  }
+  
+  .bg-cntct {
+    bottom: 145px;
+    font-size: 30px;
+    right: -45px;
+  }
+  
+  .baner-mockup {
+    margin-top: 0;
+  }
+  
+  /*--- sponsor logos --*/
+  
+  #sponsor-logo li img {
+    display: inline-block !important;
+    width: auto !important;
+  }
+  
+  #sponsor-logo li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #sponsor-logo {
+    margin-bottom: 0;
+    padding: 0 15px !important;
+  }
+  

@@ -1,0 +1,34 @@
+// ERROR 404
+.kazougroup-error404-wrapper {
+    .kazougroup-error404-goback {
+        &:hover {
+            color: var(--blue-pacific);
+            background: transparent none repeat scroll 0 0;
+            border: 1px solid var(--blue-pacific);
+            .kazougroup-error404-left-icon {
+                left: -10px;
+                position: relative;
+                transition: all 0.3s linear 0s;
+            }
+        }
+        .kazougroup-error404-left-icon {
+            position: relative;
+            top: 1px;
+            right: 5px;
+        }
+    }
+
+}
+
+// NEWSLETTERS
+.kazougroup-newletters-wrapper {
+    .kazougroup-newletters-submit {
+        &:hover {
+        .kazougroup-newletters-right-icon {
+                left: 5px;
+                position: relative;
+                transition: all 0.3s linear 0s;
+            }
+        }
+    }
+}
